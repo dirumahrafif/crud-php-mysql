@@ -173,6 +173,7 @@ if (isset($_POST['simpan'])) { //untuk create
                             <th scope="col">Fakultas</th>
                             <th scope="col">Aksi</th>
                         </tr>
+                    </thead>
                     <tbody>
                         <?php
                         $sql2   = "select * from mahasiswa order by id desc";
@@ -201,7 +202,7 @@ if (isset($_POST['simpan'])) { //untuk create
                         }
                         ?>
                     </tbody>
-                    </thead>
+                    
                 </table>
             </div>
         </div>
